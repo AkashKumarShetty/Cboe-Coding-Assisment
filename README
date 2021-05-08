@@ -1,0 +1,18 @@
+#Ceboe Coding Challenge
+
+- Java program which reads contents of a PITCH data file from standard input and, at the end of the input, shows a table of the top ten symbols by executed volume.
+
+- Dependency:
+  - Java 11
+  - apache-commons cli
+
+- Jar located build/libs/cboe-challenge-1.0-SNAPSHOT.jar
+
+- Build from source: gradle clean build
+
+- run via java -jar build/libs/cboe-challenge-1.0-SNAPSHOT.jar
+  - Optional inputs:
+    - -i <input file\>
+    - -o <output file\>
+ 
+
